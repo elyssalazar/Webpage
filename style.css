@@ -155,22 +155,31 @@ p {
 .char {
   display: flex;
   justify-content: center;
-  border-radius: 2%;
+  border: 10% darkred;
+  border-radius: 7%;
   width: 100px;
   height: 100px;
 }
+
 
 /*Third body*/
 .third-body {
   display: flex;
   flex-direction: column;
-  background-color: lightslategray;
+  background-color: rgb(255, 204, 204);
   padding: 12%;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Courier New', Courier, monospace;
 }
 
+.author {
+  display: flex;
+  padding-left: 30%;  
+  font-style: italic;
+}
 
 /*The footer*/
 .footer1 {
