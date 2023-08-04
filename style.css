@@ -4,7 +4,8 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
     margin: 0;
 }
 
@@ -16,6 +17,7 @@ body {
     padding-top: 2%;
     background-color: #1f2937;
     color: white;
+    scroll-snap-align: start;
 }
 
 .right-links {
@@ -125,11 +127,56 @@ body {
       border: 2px solid #333;
   }
 
+/*Second body*/
+
+.second-body{
+  background-color: #7baab5;
+  padding: 70px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.info {
+  display: flex;
+  gap: 4rem;
+  justify-content: center
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.char {
+  display: flex;
+  justify-content: center;
+  border-radius: 2%;
+  width: 100px;
+  height: 100px;
+}
+
+/*Third body*/
+.third-body {
+  display: flex;
+  flex-direction: column;
+  background-color: lightslategray;
+  padding: 12%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+
 /*The footer*/
 .footer1 {
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding: 30px;
     margin: 100px;
     background-color: #3882f6;
     color: #f9faf8;
@@ -147,7 +194,6 @@ body {
     color: white;
     padding: 16px;
 }
-
 
 /*Others:*/
 ul {
