@@ -25,6 +25,15 @@ body {
     gap: 1rem;
 }
 
+.left-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  width: 30px;
+}
+
 /*Upper body*/
 
 .upper-body {
@@ -32,7 +41,7 @@ body {
     justify-content: center;
     padding: 60px 70px;
     gap: 1rem;
-    background-color: darkblue;
+    background-color: rgb(84, 84, 160);
     color: white;
     margin: 50px;
     border: 30px;
@@ -132,6 +141,7 @@ body {
 .second-body{
   background-color: #7baab5;
   padding: 70px;
+  font-family: ;
 }
 p {
   display: flex;
@@ -171,7 +181,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-family:'Courier New', Courier, monospace;
 }
 
